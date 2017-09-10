@@ -63,5 +63,8 @@ $ hexo deploy
 
 ### 代码同步
 ``` bash
-$ git push
+$ git add .
+$ git status
+$ git commit -m '提交注释，替换成自己的注释就可以'
+$ git push -u origin master
 ```
